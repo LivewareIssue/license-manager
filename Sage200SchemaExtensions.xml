@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:SageObjectStore">
+  <ApplicationNamespace>Eureka.Common.LicenseManager</ApplicationNamespace>
+  <MemberVariablePrefix>_</MemberVariablePrefix>
+  <ClassPrefix>Persistent</ClassPrefix>
+  <ClassSuffix />
+  <Language>VB</Language>
+  <Path>C:\Sage200SchemaExtensions</Path>
+  <GenerateBusinessObjects>true</GenerateBusinessObjects>
+  <GenerateSeparateFiles>true</GenerateSeparateFiles>
+  <PersistentObjects>
+    <PersistentObject Name="EurekaLicense">
+      <TableName />
+      <Description />
+      <Fields>
+        <Field Name="EurekaLicenseID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>true</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>true</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>true</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>true</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Eureka License ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="LicensedAddonName">
+          <Description>The name of the licensed add-on</Description>
+          <DbType>String</DbType>
+          <Precision>60</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Licensed Add-On Name</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="ExpiryDate">
+          <Description>The date on which the license expires</Description>
+          <DbType>Date</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>true</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99/99/9999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>License Expiry Date</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="LicenseKey">
+          <DbType>String</DbType>
+          <Precision>2147483647</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>License Key</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Default</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+  </PersistentObjects>
+  <Relationships />
+  <DataTypes />
+  <Enumerations />
+  <BaselineSchema />
+  <KeepIDSuffixTables />
+</ObjectStore>
