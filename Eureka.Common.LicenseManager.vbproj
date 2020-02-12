@@ -1159,9 +1159,7 @@
     <Import Include="System.Data" />
     <Import Include="System.Diagnostics" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="My Project\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="EurekaLicense.vb" />
     <Compile Include="EurekaLicenseProvider.vb" />
@@ -1179,6 +1177,7 @@
     <Compile Include="LicenseInformation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="My Project\Settings.Designer.vb" />
     <Compile Include="PersistentEurekaLicense.vb" />
     <Compile Include="Utilities.vb" />
   </ItemGroup>
@@ -1199,6 +1198,7 @@
     <None Include="app.config" />
     <None Include="Eureka.Common.LicenseManager.pp" />
     <None Include="Eureka.Common.LicenseManager.sdbx" />
+    <None Include="My Project\Settings.settings" />
     <None Include="readme.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
